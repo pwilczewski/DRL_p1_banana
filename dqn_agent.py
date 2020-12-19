@@ -1,28 +1,26 @@
-import numpy as np
-import random
-from collections import namedtuple, deque
-
-from model import QNetwork
-
-import torch
-from torch import nn
-import torch.nn.functional as F
-import torch.optim as optim
-
-
 # Settings that gave pretty good results
 # TAU = 1e-3
 # LR = 0.001
 # 16, 32 structure
 # EPS 0.9995
 
+import numpy as np
+import random
 
+import torch
+import torch.optim as optim
+import torch.nn.functional as F
+
+from collections import namedtuple, deque
+
+from model import QNetwork
+
+# Hyper-parameters
 BUFFER_SIZE = int(1e5)  # replay buffer size
 BATCH_SIZE = 64         # minibatch size
 GAMMA = 0.99
 TAU = 1e-3              # for soft update of target parameters
-# LR = 5e-4               # learning rate 
-LR = 0.001
+LR = 0.001              # learning rate 
 UPDATE_EVERY = 4        # how often to update the network
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -154,7 +152,7 @@ class ReplayBuffer:
             seed (int): random seed
         """
         self.action_size = action_size
-        self.memory = deque(maxlen=buffer_size)  
+        self.memory = deque(maxlen=buffer_size) 
         self.batch_size = batch_size
         self.experience = namedtuple("Experience", field_names=["state", "action", "reward", "next_state", "done"])
         self.seed = random.seed(seed)
