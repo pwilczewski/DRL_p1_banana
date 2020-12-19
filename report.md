@@ -23,15 +23,18 @@ Agent takes epsilon-greedy actions.
 Uses mean squared error as the loss function.
 Adam as the optimizer.
 
-The neural network takes a state of size 37 as input. The first layer contains 8 nodes with ReLU activation and the second layer contains 16 nodes with ReLU activation. The neural network outputs four action values using ReLU activation. In total this architecture contains XXXX parameters.
+Deep neural network approximates the action-value function Q(s,a) for the agent.
+
+The neural network takes a state of size 37 as input. The first layer contains 8 nodes with ReLU activation and the second layer contains 16 nodes with ReLU activation. The network outputs four action values using ReLU activation. In total this architecture contains 516 parameters.
 
 ### Plot of Rewards
 
 After 555 episodes, the successful agent was able to achieve an average score of +13 over its last 100 episodes.
 
-![Score history](score_history.png)
+![Scores](score_history.png)
 
 ### Ideas for Future Work
 
 Feature engineering.
 Alternative neural network architectures.
+Double-Q, dueling-Q.
