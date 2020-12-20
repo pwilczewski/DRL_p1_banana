@@ -22,4 +22,4 @@ After 555 episodes, the successful agent was able to achieve an average score of
 
 ### Ideas for Future Work
 
-One idea for future work is to test alternative network architecures. Additional nodes or additional layers could improve the agent's performance by utilizing more data from the environment. Another idea for future work is to test feature design. For example applying a heuristic like 'stay away from corners and walls' may help the agent learn to collect bananas faster.
+One idea for future work is to test alternative network architecures. Additional nodes or additional layers could improve the agent's performance by utilizing more data from the environment. Another idea for future work is to test feature design. For example including data about the distance from corners and walls may help the agent learn to collect bananas faster.
