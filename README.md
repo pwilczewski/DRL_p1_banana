@@ -24,7 +24,7 @@ The task is episodic and the environment is considered solve once the agent achi
 
 My solution was coded using Python version 3.6.12, PyTorch version 0.4.0 and OpenAI gym version 0.17.3.
 
-1. The requirements for running my solution are available in the Udacity [DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies). These instructions can be found in `README.md` at the root of the repository. By following these instructions, you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete the project.
+1. The requirements for running my solution are available in the Udacity [DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies). These instructions can be found in `README.md` at the root of the repository.
 
 2. Additionally you will need to download the Banana environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
