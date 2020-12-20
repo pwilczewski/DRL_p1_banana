@@ -32,7 +32,7 @@ My solution was coded using Python version 3.6.12, PyTorch version 0.4.0 and Ope
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
     - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
-3. After downloading the file you may check out this repository, place the Banana environment file in the folder and unzip it. 
+3. After downloading the file you may check out this repository, place the Banana environment file in the project directory and unzip it. 
 
 ### Instructions
 
