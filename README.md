@@ -6,7 +6,7 @@
 
 ### Introduction
 
-This repository contains my solution for the first product in Udacity's Deep Reinforcement Learning Nanodegree. For this project I trained an agent to navigate and collect bananas in a large, square world.
+This repository contains my solution for the first project in Udacity's Deep Reinforcement Learning Nanodegree. For this project I trained an agent to navigate and collect bananas in a large, square world.
 
 ![Trained Agent][image1]
 
