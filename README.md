@@ -36,4 +36,4 @@ My solution was coded using Python version 3.6.12, PyTorch version 0.4.0 and Ope
 
 ### Instructions
 
-After completing the initial setup, the Jupyter Notebook `Navigation.ipynb` contains my solution. The notebook references two supporting py files. The `dqn_agent.py` file contains the definition of the agent and the `model.py` file contains the structure of the deep neural network model. Finally the estimated model parameters that solved the environment are located in the `model_weights.pth` file.
+After completing the initial setup, the Jupyter Notebook `Navigation.ipynb` contains my solution. The notebook references two supporting py files. The `dqn_agent.py` file contains the definition of the agent and the `model.py` file contains the structure of the deep neural network model. Finally the estimated model parameters that solved the environment are located in the `model_weights.pth` file. The `report.md` file contains a descrption of the algorithm used to estimate these parameters.
